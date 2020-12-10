@@ -1,7 +1,10 @@
 import pkg from './package'
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
+  router: {
+    base: 'https://github.com/codePaolo/vue-dadjokes'
+  },
 
   /*
   ** Headers of the page
